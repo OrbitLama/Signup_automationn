@@ -1,10 +1,11 @@
 # Signup_automationn
-Automated signup script using Selenium to handle form submission and OTP verification, with test report and demo video included.
+Automated signup script using Selenium to handle form submission and OTP verification, with test report
 Signup Automation Script
-Overview
 
-This project automates the signup process on Authorized Partner Signup Page
- using Selenium WebDriver.
+
+
+Overview : 
+This project automates the signup process on Authorized Partner Signup Page using Selenium WebDriver.
 The automation covers:
 
 Filling signup forms
@@ -65,3 +66,7 @@ Password: TestPassword@123
 Agency details: Test Agency, Manager, agency@test.com
 
 Uploaded document: Quality Assurance Certificate.png
+
+
+
+[test_report.xlsx](https://github.com/user-attachments/files/22566200/test_report.xlsx)

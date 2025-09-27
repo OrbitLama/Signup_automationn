@@ -2,7 +2,7 @@ import re
 import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
@@ -39,8 +39,8 @@ def signup_form(driver, wait, email, phone):
     wait.until(EC.visibility_of_element_located((By.NAME, "lastName"))).send_keys("User")
     driver.find_element(By.NAME, "email").send_keys(email)
     driver.find_element(By.NAME, "phoneNumber").send_keys(phone)
-    driver.find_element(By.NAME, "password").send_keys("Password@123")
-    driver.find_element(By.NAME, "confirmPassword").send_keys("Password@123")
+    driver.find_element(By.NAME, "password").send_keys(" TestPassword@123")
+    driver.find_element(By.NAME, "confirmPassword").send_keys(" TestPassword@123")
     next_btn = wait.until(EC.element_to_be_clickable((By.XPATH, "//button[@type='submit']")))
     next_btn.click()
 
@@ -323,6 +323,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 

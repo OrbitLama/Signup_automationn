@@ -34,7 +34,7 @@ Setup
 
 Clone the repository:
 
-git clone https://github.com/YourUsername/signup_automation_task.git
+git clone https://github.com/OrbitLama/signup_automation_task.git
 cd signup_automation_task
 
 

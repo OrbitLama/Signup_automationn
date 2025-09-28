@@ -8,19 +8,19 @@ Overview :
 This project automates the signup process on Authorized Partner Signup Page using Selenium WebDriver.
 The automation covers:
 
--Flling signup forms
--OTP verification (auto-fetch from Yopmail)
--Agency details
--Professional experience
+→Flling signup forms
+→OTP verification (auto-fetch from Yopmail)
+→Agency details
+→Professional experience
 
 Verification and preferences including file upload
 
 Prerequisites
--Python 3.10+
--Selenium 4.x
--Firefox 117 or Chrome latest version
--GeckoDriver (for Firefox) or ChromeDriver (for Chrome)
--Internet connection
+→Python 3.10+
+→Selenium 4.x
+→Firefox 117 or Chrome latest version
+→GeckoDriver (for Firefox) or ChromeDriver (for Chrome)
+→Internet connection
 
 Setup
 

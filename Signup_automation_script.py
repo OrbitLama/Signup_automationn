@@ -188,7 +188,7 @@ def handle_otp(driver, wait, email):
         return False
 
 
-    """" 
+    """" (for the manual otp)
     otp_field = None
    try:
         otp_field = wait.until(EC.visibility_of_element_located((By.NAME, "otp")))
@@ -323,6 +323,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
